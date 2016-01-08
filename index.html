@@ -10,15 +10,17 @@
 
     <title>angular-scroll-spy.js</title>
 
-    <!-- <link rel="stylesheet" type="text/css" href="../inorganik.github.io/assets/css/style.css?v=20140820"> -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css?v=20141210">
+    <link rel="stylesheet" type="text/css" href="../inorganik.github.io/assets/css/style.css?v=20140820">
+    <!--<link rel="stylesheet" type="text/css" href="../assets/css/style.css?v=20141210">-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
     <script type="text/javascript" src="angular-scroll-spy.js"></script>
+    <script type="text/javascript" src="../countUp.js/countUp.js"></script>
     <script type="text/javascript" src="../countUp.js/angular-countUp.js"></script>
     <script type="text/javascript">
 
     var app = angular.module("demoApp",["scrollSpyModule", "countUpModule"]);
 
+    // google analytics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -58,6 +60,7 @@
                 </code>
             </div>
             <p>The code above requires you to have an id assigned to the element you use scroll-spy with, because then you can have multiple elements on a page with scroll-spy. If you just have one, you can remove the if statement in the event handler.</p>
+            <p>For this demo, <a href="http://inorganik.github.io/countUp.js/">CountUp.js</a> is being used to show a counting animation when the scroll event has fired. The angular countUp module included in that repo uses the `scroll-spy-event` attribute to fire on that event if the attribute is present.</p>
             <p class="indigo large">Scroll down...</p>
             <div class="scroll-down"><div>&nbsp;</div></div>
 

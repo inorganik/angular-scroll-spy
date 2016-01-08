@@ -1,0 +1,21 @@
+{
+  "name": "angular-scroll-spy",
+  "version": "1.0.0",
+  "description": "broadcast an event when an element comes into or goes out of view",
+  "main": "angular-scroll-spy.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inorganik/angular-scroll-spy.git"
+  },
+  "keywords": [
+    "angular",
+    "scrollspy"
+  ],
+  "author": "@inorganik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inorganik/angular-scroll-spy/issues"
+  },
+  "homepage": "http://inorganik.github.io/angular-scroll-spy/"
+}
